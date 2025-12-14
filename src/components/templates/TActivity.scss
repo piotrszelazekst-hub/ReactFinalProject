@@ -1,0 +1,25 @@
+.t-activity-header {
+  width: 100%;
+  background: linear-gradient(90deg, #1976d2, #42a5f5);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  &__title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+}
+
+.t-activity-template {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

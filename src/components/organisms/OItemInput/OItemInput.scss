@@ -1,0 +1,19 @@
+.o-item-input {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+
+    &__input {
+        flex-grow: 1;
+        margin-right: 10px;
+        padding: 0.75rem;
+        font-size: 1rem;
+        border:  1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    &__button {
+        padding: 0.75rem 1.5rem;
+
+    }
+}

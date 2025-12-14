@@ -1,0 +1,47 @@
+$loaderColor: #1a58cb;
+
+.a-loader {
+  font-size: 10px;
+  margin: 50px auto;
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  background: linear-gradient(to right, $loaderColor 10%, rgba(128, 0, 255, 0) 42%);
+  position: relative;
+  animation: rotate 1.4s infinite linear;
+
+  &:before {
+    content: '';
+    width: 50%;
+    height: 50%;
+    background: $loaderColor;
+    border-radius: 100% 0 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &:after {
+    content: '';
+    background: #fff;
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

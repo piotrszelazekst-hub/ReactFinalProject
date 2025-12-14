@@ -32,7 +32,7 @@
       "@organisms/*": ["components/organisms/*"],
       "@templates/*": ["components/templates/*"],
       "@views/*": ["components/views/*"],
-      "@store/*": ["store/*"],
+      "@store/*": ["src/store/*"],
       "@utils/*": ["utils/*"],
       "@styles/*": ["styles/*"]
     } /* Specify a set of entries that re-map imports to additional lookup locations. */,

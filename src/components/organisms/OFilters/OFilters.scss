@@ -1,0 +1,26 @@
+.o-filters {
+  display: flex;
+  flex-direction: column;
+
+  &__actions {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__filters {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+}
+
+.action {
+  &__buttons {
+    display: flex;
+    gap: 10px;
+
+    .a-buttons {
+      width: 180px;
+    }
+  }
+}

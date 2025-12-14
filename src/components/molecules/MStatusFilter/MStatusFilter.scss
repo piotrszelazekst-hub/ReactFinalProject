@@ -1,0 +1,19 @@
+.m-status-filter {
+    display: flex;
+    flex-direction: column;
+
+    &__item {
+        margin-bottom: 10px;
+    }
+
+    &__button {
+        width: 100%;
+
+        &--selected {
+            background-color: #1976d2;
+            color: #ffffff;
+        }
+    }
+
+
+}

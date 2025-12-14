@@ -1,0 +1,16 @@
+.m-color-filter {
+    display: flex;
+    flex-direction: column;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+}
+
+.color-filter {
+    &__dot {
+        margin: 4px 8px;
+    }
+}

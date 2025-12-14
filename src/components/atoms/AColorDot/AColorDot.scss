@@ -1,0 +1,17 @@
+$a-color-dot-sizes: (
+    small: 10px,
+    medium: 15px,
+    large: 20px,
+);
+.a-color-dot {
+    border-radius: 50%;
+    display: inline-block;
+
+    @each $size, $value in$a-color-dot-sizes {
+    &--#{$size} {
+        width: $value;
+        height: $value;
+    }
+}
+}
+
